@@ -101,7 +101,10 @@ button:hover {
     padding: 80px 20px;
     text-align: center;
     min-height: 300px;
-    /* ESCREVA SEU CODIGO AQUI */
+
+    display: grid;
+    place-items: center;
+   
 }
 
 .banner h1 {
