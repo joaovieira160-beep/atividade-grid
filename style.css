@@ -463,3 +463,35 @@ button:hover {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+
+@media (max-width: 768px) {
+        .categorias-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+  
+        .produtos-grid{
+            display: grid;
+            grid-template-columns: 1fr;
+
+        }
+
+        .destaque-principal{
+             display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+
+        }
+
+        .info-grid{
+                 display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        
+        }
+
+        .footer-grid{
+                 display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        
+        }
+}
