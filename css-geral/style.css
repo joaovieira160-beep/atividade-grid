@@ -397,7 +397,29 @@ body {
      transform: scale(1.05) e opacity: 0.9
    ============================================= */
 
-/* ESCREVA SEU CODIGO AQUI */
+        .diferencial-card{
+            transition: transform 0.3s, box-shadow 0.3s
+        } 
+        .diferencial-card :hover {
+            transform: translateY(-5px);
+            box-shadow : 0 8px 25px rgba(230,126,34,0.15);
+        }
+        .prato-card{
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .prato-card :hover{
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+
+        }
+        .btn-primario{
+            transition: transform 0.2s, opacity 0.2s
+
+        }
+        .btn-primario :hover{
+            transform: scale(1.05);
+            opacity: 0.9
+        }
 
 
 /* =============================================
