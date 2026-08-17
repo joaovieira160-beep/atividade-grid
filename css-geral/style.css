@@ -489,8 +489,20 @@ body {
      font-size: 0.9rem
    ============================================= */
 
+   .prato-img{
+    position: relative;
+   }
 .prato-tag {
-    /* ESCREVA SEU CODIGO AQUI */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color:rgba(0,0,0,0.6) ;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+
+
 }
 
 .depoimentos {
@@ -525,8 +537,19 @@ body {
     gap: 12px;
 }
 
+ 
 .autor-avatar {
-    /* ESCREVA SEU CODIGO AQUI */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e67e22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+     
 }
 
 .autor-info {
