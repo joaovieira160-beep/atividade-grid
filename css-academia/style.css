@@ -144,7 +144,19 @@ body {
    animation: pulsar 2s infinite;
    ============================================= */
 
-/* ESCREVA SEU @keyframes AQUI */
+@keyframes pulsar{
+    0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .plano-badge {
     background-color: #e74c3c;
@@ -156,7 +168,7 @@ body {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 15px;
-    /* ESCREVA SEU CODIGO AQUI - aplique a animacao */
+    animation: pulsar 2s infinite
 }
 
 
