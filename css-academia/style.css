@@ -73,7 +73,7 @@ body {
     gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
-    
+
 }
 
 
@@ -103,19 +103,24 @@ body {
    ============================================= */
 
 :root {
-    /* ESCREVA SEU CODIGO AQUI */
+    --cor-primaria: #e74c3c (vermelho);
+      --cor-secundaria: #c0392b (vermelho escuro);
+      --cor-fundo: #1a1a2e (azul escuro);
+      --cor-card: #16213e (azul mais escuro);
+      --cor-texto: #eee (cinza claro);
 }
 
 .secao {
     padding: 80px 40px;
-    /* ESCREVA SEU CODIGO AQUI - aplique --cor-fundo */
+    background-color: var(--cor-fundo);
 }
 
 .plano-card {
     padding: 40px 30px;
     border-radius: 12px;
     text-align: center;
-    /* ESCREVA SEU CODIGO AQUI - aplique --cor-card e --cor-texto */
+   background-color: var(--cor-card);
+   color: var(--cor-texto);
 }
 
 
